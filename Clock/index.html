@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Clock</title>
+</head>
+<body class="bg-black bg-gradient-to-r from-blue-400 to-green-400 box-border flex justify-center items-center min-h-[100vh]">
+            <div class="h-[25rem] w-[25rem] rounded-[12.5rem] bg-white opacity-80 relative  ">
+                <div class="number1 absolute w-[100%] h-[100%] text-center rotate-[30deg] font-bold text-[30px] ">1</div>
+                <div class="number2 absolute w-[100%] h-[100%] text-center rotate-[60deg] font-bold text-[30px]">2</div>
+                <div class="number3 absolute w-[100%] h-[100%] text-center rotate-[90deg] font-bold text-[30px]">3</div>
+                <div class="number4 absolute w-[100%] h-[100%] text-center rotate-[120deg] font-bold text-[30px]">4</div>
+                <div class="number5 absolute w-[100%] h-[100%] text-center rotate-[150deg] font-bold text-[30px]">5</div>
+                <div class="number6 absolute w-[100%] h-[100%] text-center rotate-[180deg] font-bold text-[30px]">6</div>
+                <div class="number7 absolute w-[100%] h-[100%] text-center rotate-[210deg] font-bold text-[30px]">7</div>
+                <div class="number8 absolute w-[100%] h-[100%] text-center rotate-[240deg] font-bold text-[30px]">8</div>
+                <div class="number9 absolute w-[100%] h-[100%] text-center rotate-[270deg] font-bold text-[30px]">9</div>
+                <div class="number10 absolute w-[100%] h-[100%] text-center rotate-[300deg] font-bold text-[30px]">10</div>
+                <div class="number11 absolute w-[100%] h-[100%] text-center rotate-[330deg] font-bold text-[30px]">11</div>
+                <div class="number12 absolute w-[100%] h-[100%] text-center font-bold text-[30px]">12</div>
+                <div class="h-[1rem] w-[1rem] rounded-[0.5rem] absolute top-[47.5%] left-[48%] bg-[red] z-10"></div>
+                <div class="hand-minutes absolute top-[47.5%] left-[49%] h-[8rem] w-2 bg-black rounded-b-lg rotate-[calc(var(--rot)*[1dgiteg])]" minute-hand></div>
+                <div class="hand-hours absolute top-[47.5%] left-[48.5%] h-[5rem] w-3 bg-black rounded-b-lg" hour-hand></div>
+                <div class="hand-seconds absolute top-[47.5%] left-[49%] h-[10rem] w-1 bg-[red] rounded-b-lg" second-hand></div>
+            </div>
+</body>
+</html>
